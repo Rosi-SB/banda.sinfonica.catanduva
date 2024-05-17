@@ -17,13 +17,13 @@ function Home() {
     <Container>
       <section className={style.home}>
         <Title>Temporada 2024</Title>
-        <Folder />
         <div>
              <p>20/10 (Sexta-Feira | Horário: 19:30h - Noite) Local:Paróquia São Sebastião | Ibirá/SP</p>
              <p>22/10 (Domingo | Horário: 10:00h - Manhã): Encontro de carros antigos - Local: Aeroporto | Catanduva/SP</p>
              <p>15/12 (Sexta-feira | Horário: 19:30h - Noite): Natal Luz - Local: Praça da Matriz | Catanduva/SP
           </p>
         </div>
+        <Folder />
       </section>
      
     </Container>
