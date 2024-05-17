@@ -16,7 +16,8 @@ function Register(){
                     <div>
                         <img src="../images/1.jpg" />
                         <div>
-                            <button>Clique aqui para fazer sua inscrição</button>
+                            <button><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCUgIlcgNlg7Sms4f_zHtCDQtvtAIYl80udLxcSsvWpQf6Ig/viewform?usp=sf_link" target="_blank">
+                            </a>Clique aqui para fazer sua inscrição</button>
                         </div>
                     </div>
                 </section>    
