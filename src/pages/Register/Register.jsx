@@ -11,9 +11,9 @@ function Register(){
         <>
             <Header />
             <Container>
-                <section className={style.register}>
+                <section >
                     <Title>TORNE-SE MEMBRO BANDA SINFÔNICA DE CATANDUVA</Title>
-                    <div>
+                    <div className={style.register}>
                         <img src="../images/1.jpg" />
                         <div>
                             <a href="https://forms.gle/krQ9cncXm2f5YaUp8" target="_blank"><button>Clique aqui para fazer sua inscrição</button></a>
