@@ -6,17 +6,12 @@
     --prussian: #003049;
 }
 .gallery{
-    padding-top: 10%;
+    padding-top: 5rem;
+    column-count: 3;
     width: 100%;
     height: 100vh;
-    display: flex;
 }
-.gallery div{
-   padding: 2rem;
-   flex-wrap: wrap;
-   margin-left: 50px;
-   
-}
+
 .gallery img{
     width: 350px;
     height: 250px;
@@ -30,12 +25,17 @@
     font-size: 2rem;
 }
 @media (max-width: 768px) {
+    .gallery{
+        width: 100%;
+        column-count: 2;
+    }
     .gallery a{
         font-size: 16px;
     }
     .gallery img{
+        height: 250px;
         border-radius: 20px;
-        width: 80%;
+        width: 70%;
     }
     
 }
@@ -44,15 +44,11 @@
         font-size: 20px;
     }
     .gallery img{
-        height: 40%;
+        height: 150px;
         border-radius: 20px;
-        width: 45%;
-        
+        width: 70%;
     }
-    .gallery img :hover{
-        background-color: var(--vanilla);
-    }
-    .gallery div{
+    .gallery{
         width: 100%;
         column-count: 1;
         
