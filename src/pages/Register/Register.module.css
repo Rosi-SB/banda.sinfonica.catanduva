@@ -33,12 +33,13 @@
     }
 }
 @media (max-width: 992px) {
-    .register button{
-        padding: 1.2rem;
+  .register button{
+        padding: 1rem;
+        width: 70%;
     }
     .register img{
         border-radius: 20px;
-        height: 350px;
+        height: 250px;
     }
     
 }
