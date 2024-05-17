@@ -11,9 +11,9 @@ function About() {
         <>
             <Header />
             <Container>
-                <section className={style.about}>
+                <section >
                     <Title>NOSSA HISTÓRIA</Title>
-                    <div>
+                    <div className={style.about}>
                         <img src="../images/Photos/IMG-2021-00.jpg" alt="foto da banda" />
                         <p> A Banda Sinfônica de Catanduva é composta por aproximadamente 40 músicos de instrumentos característicos de tal formação, como: flautas, clarinetes, saxofones, trompetes, trompas, trombones, contrabaixo, piano e percussão. Seu objetivo é ampliar o acesso à música instrumental, através de shows de alta qualidade artística.
                             A Banda é referência artística no seguimento de banda sinfônica e no interior do estado de São Paulo, com músicos do município de Catanduva, busca levar a toda a população, cultura e entretenimento de elevado nível de performance artística.
