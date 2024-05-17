@@ -2,7 +2,7 @@
     height: 100vh;
     padding: 20px;
 }
-.contact div{
+.contact{
     column-count: 2;
 }
 .contact img{
