@@ -3,3 +3,17 @@
     width: 100%;
     filter: sepia(50%);
 }
+@media (max-width: 768px) {
+    .carousel img{
+        height: 480px;
+        width: 100%;
+        filter: sepia(50%);
+    }
+}
+@media (max-width: 992px) {
+    .carousel img{
+        height: 250px;
+        width: 100%;
+        filter: sepia(50%);
+    }
+}
