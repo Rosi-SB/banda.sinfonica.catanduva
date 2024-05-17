@@ -7,9 +7,8 @@
 }
 .container{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color: var(--vanilla);
-    padding-block: 0.5em;
     color: var(--prussian);
     text-align: center;
 }
