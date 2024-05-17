@@ -2,8 +2,9 @@
     height: 100vh;
     padding: 20px;
 }
-.about div{
+.about{
     column-count: 2;
+    padding-top: 5rem;
 }
 .about img{
     border-radius: 20px;
@@ -14,11 +15,15 @@
     text-wrap: wrap;
     padding: 1fr;
     margin-right: 4rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 2rem;
 }
 
 @media (max-width: 768px) {
+    .about{
+        column-count: 1;
+        padding-top: 3rem;
+    }
     .about p{
         text-align: justify;
         text-wrap: wrap;
@@ -32,6 +37,10 @@
     }
 }
 @media (max-width: 992px) {
+    .about{
+        column-count: 1;
+        padding-top: 2rem;
+    }
     .about p{
         text-align: justify;
         text-wrap: wrap;
@@ -41,7 +50,7 @@
     }
     .about img{
         border-radius: 20px;
-        width: 80%;
+        width: 70%;
     }
     .about div{
         column-count: 1;
