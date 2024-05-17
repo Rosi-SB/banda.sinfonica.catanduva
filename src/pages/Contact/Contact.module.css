@@ -22,7 +22,7 @@
         column-count: 1;
     }
     .contact p{
-        text-align: justify;
+        text-align: center;
         text-wrap: wrap;
         padding: 1rem;
         font-size: 16px;
