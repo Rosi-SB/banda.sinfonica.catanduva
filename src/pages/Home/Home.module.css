@@ -5,7 +5,22 @@
     --fire: #D62828;
     --prussian: #003049;
 }
-.home section div p{
+.home p{
     color: var(--prussian);
+    font-size: 1.5rem;
+    padding-bottom: 1em;
 }
-
+@media (max-width: 768px) {
+    .home p{
+        color: var(--prussian);
+        font-size: 1.5rem;
+        padding-bottom: 1em;
+    }
+}
+@media (max-width: 992px) {
+    .home p{
+        color: var(--prussian);
+        font-size: 16px;
+        padding-bottom: 1em;
+    }
+}
