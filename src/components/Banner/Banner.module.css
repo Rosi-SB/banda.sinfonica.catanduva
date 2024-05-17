@@ -1,0 +1,8 @@
+.banner{
+    height: 600px;
+    width: 100%;
+    /* background-image: url('../../../public/images/Photos/capa.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

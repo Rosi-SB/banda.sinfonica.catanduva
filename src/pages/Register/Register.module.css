@@ -1,0 +1,44 @@
+:root{
+    --vanilla: #EAE2B7;
+    --xanthous: #FCBF49;
+    --orange: #F77F00;
+    --fire: #D62828;
+    --prussian: #003049;
+}
+.register{
+    height: 100vh;
+    padding: 20px;
+}
+.register img{
+    border-radius: 20px;
+    height: 350px;
+    
+}
+.register button{
+    border-radius: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color:var(--prussian);
+    color: var(--xanthous); 
+    cursor: pointer;
+    border: none;
+}
+.register button:hover{
+    background-color: var(--orange);
+}
+
+@media (max-width: 768px) {
+    .register img{
+        height: 450px;
+    }
+}
+@media (max-width: 992px) {
+    .register button{
+        padding: 1.2rem;
+    }
+    .register img{
+        border-radius: 20px;
+        height: 350px;
+    }
+    
+}

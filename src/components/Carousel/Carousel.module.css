@@ -1,0 +1,5 @@
+.carousel img{
+    height: 768px;
+    width: 100%;
+    filter: sepia(50%);
+}

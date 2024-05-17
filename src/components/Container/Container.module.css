@@ -1,0 +1,15 @@
+:root{
+    --vanilla: #EAE2B7;
+    --xanthous: #FCBF49;
+    --orange: #F77F00;
+    --fire: #D62828;
+    --prussian: #003049;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: var(--vanilla);
+    padding-block: 0.5em;
+    color: var(--prussian);
+    text-align: center;
+}

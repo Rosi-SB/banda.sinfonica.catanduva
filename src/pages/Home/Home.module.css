@@ -1,0 +1,11 @@
+:root{
+    --vanilla: #EAE2B7;
+    --xanthous: #FCBF49;
+    --orange: #F77F00;
+    --fire: #D62828;
+    --prussian: #003049;
+}
+.home section div p{
+    color: var(--prussian);
+}
+

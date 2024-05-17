@@ -1,0 +1,39 @@
+.folder{
+    height: 80vh;
+}
+.folder img{
+    height: 300px;
+    padding: 0 3rem;
+}
+.folder :hover{
+    height: 350px;
+}
+
+@media (max-width: 768px)  {
+    .folder{
+        display: inline-flex;
+    }
+    .folder img{
+        column-count: 3;
+        height: 250px;
+        padding: 0 0.2rem;
+    }
+    .folder :hover{
+        height: 320px;
+    }
+}
+@media (max-width: 992px)  {
+    .folder{
+        column-count: 3;
+        display: inline-flex;
+    }
+    .folder img{
+        column-count: 1;
+        height: 250px;
+        padding: 0 0.2rem;
+        
+    }
+    .folder :hover{
+        height: 320px;
+    }
+}

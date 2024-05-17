@@ -1,0 +1,49 @@
+.about{
+    height: 100vh;
+    padding: 20px;
+}
+.about div{
+    column-count: 2;
+}
+.about img{
+    border-radius: 20px;
+    width: 50%;
+}
+.about p{
+    text-align: justify;
+    text-wrap: wrap;
+    padding: 1fr;
+    margin-right: 4rem;
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .about p{
+        text-align: justify;
+        text-wrap: wrap;
+        padding: 1rem;
+        font-size: 16px;
+        margin-right: 0;
+    }
+    .about img{
+        border-radius: 20px;
+        width: 80%;
+    }
+}
+@media (max-width: 992px) {
+    .about p{
+        text-align: justify;
+        text-wrap: wrap;
+        padding: 1rem;
+        font-size: 12px;
+        margin-right: 0;
+    }
+    .about img{
+        border-radius: 20px;
+        width: 80%;
+    }
+    .about div{
+        column-count: 1;
+    }
+}
